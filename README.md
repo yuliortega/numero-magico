@@ -87,10 +87,10 @@ El juego puede desplegarse utilizando servicios gratuitos como:
 
 - GitHub Pages
 - Netlify
-- Vercel
-
+- Vercel n
 ---
 
 ## Autor
+
 
 Proyecto desarrollado como ejercicio académico para la práctica de desarrollo web utilizando **HTML, CSS y JavaScript**.
