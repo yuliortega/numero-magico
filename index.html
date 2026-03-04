@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Juego Número Mágico</title>
+
+<link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body>
+
+<div class="game-container">
+
+<h1>🎯 Número Mágico</h1>
+
+<p class="descripcion">
+Adivina el número entre <strong>1 y 100</strong>
+</p>
+
+<div class="barra-intentos">
+<div id="progreso"></div>
+</div>
+
+<p class="contador">
+Intentos: <span id="contador">0</span> / 10
+</p>
+
+<div class="input-area">
+
+<input 
+type="number" 
+id="numeroUsuario"
+placeholder="Escribe un número"
+min="1"
+max="100"
+>
+
+<button id="btnIntentar">
+Intentar
+</button>
+
+</div>
+
+<p id="mensaje"></p>
+
+<div class="historial-container">
+
+<h3>Números intentados</h3>
+
+<ul id="historial"></ul>
+
+</div>
+
+<button id="reiniciar" class="btn-restart">
+Jugar de nuevo
+</button>
+
+</div>
+
+<script src="js/juegos.js"></script>
+
+</body>
+</html>
